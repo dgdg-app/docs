@@ -97,7 +97,7 @@ git add file1.md file2.md
 git commit -m "my snapshot"
 
 # push changes to github
-git push --set-upstream origin my-branch
+git push --set-upstream-to my-branch
 ```
 
 ### Example: Start a new repository and publish it to {% data variables.product.product_name %}
@@ -124,7 +124,7 @@ git commit -m "add README to initial commit"
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
 
 # push changes to github
-git push --set-upstream origin main
+git push --set-upstream-to main
 ```
 
 ### Example: contribute to an existing branch on {% data variables.product.product_name %}
